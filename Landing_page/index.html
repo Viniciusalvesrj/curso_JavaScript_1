@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox"  aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" litle="close menu"></label>
+
+    <aside class="menu white-menu">
+        <div onclick="getElementById('close-menu').checked = false" class="main-content menu-content">
+            <h1><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#grid-one">Grid-One</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section class="intro main-bg section" id="home">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>
+                    Janyary brings us Firefox 85
+                </h2>
+                <p>
+                    At Mozilla, we believe you have a right to privacy. You shouldn’t be tracked online. Whether you are checking your bank balance, looking for the best doctor, or shopping for shoes, unscrupulous tracking companies should not be able to track you as you browse the Web. For that reason, we are continuously working to harden Firefox against online tracking of our users.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optmized.svg" alt="Logo html, css e js">
+            </div>
+        </div>
+    </section>
+    <section class="white-bg section" id="top3">
+        <div class="main-content top3-content">
+            
+                <h2>
+                    Top 3 Jobs
+                </h2>
+                <p>
+                    Companies have a lot of disparate data that they cannot make sense of. This data can be used to get valuable insights, and data scientists help to do exactly that. Data scientists gather large amounts of structured and unstructured data and analyze them to develop valuable insights and patterns. By extrapolating and sharing these insights, data scientists help companies to solve difficult problems. They combine computer science, modelling, statistics, analytics, and math skills to uncover the answers to some major questions that can help organizations make decisions.
+                </p>
+                <p>
+                    Data scientists also have to use visual presentation techniques to make other people understand the trends and data, so they must also have presentation skills. There is no specific industry for data scientists, as they are in demand across the length and breadth of the industry. Data scientists are needed everywhere from retail to healthcare, media & entertainment to transportation, education to BFSI.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="grid-one main-bg section" id="grid-one">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            
+            <div class="grid">
+                <article>
+                    <h3>Teste</h3>                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut quo ex quos eum animi adipisci aliquam deserunt nostrum esse vel, eveniet facilis ut dolorum sint reprehenderit iure dolores quas.</p>
+                </article>
+                <article>
+                    <h3>Teste</h3>                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut quo ex quos eum animi adipisci aliquam deserunt nostrum esse vel, eveniet facilis ut dolorum sint reprehenderit iure dolores quas.</p>
+                </article>
+                <article>
+                    <h3>Teste</h3>                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut quo ex quos eum animi adipisci aliquam deserunt nostrum esse vel, eveniet facilis ut dolorum sint reprehenderit iure dolores quas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-gallery grid-one white-bg section" id="gallery">
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            
+            <div class="grid ">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=1" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=2" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=3" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=4" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=5" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/250x250?r=6" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main-bg section" id="pricing">
+        <div class="main-content top3-content">
+            
+                <h2>
+                    Pricing
+                </h2>
+                <p>
+                    Companies have a lot of disparate data that they cannot make sense of. This data can be used to get valuable insights, and data scientists help to do exactly that. Data scientists gather large amounts of structured and unstructured data and analyze them to develop valuable insights and patterns. By extrapolating and sharing these insights, data scientists help companies to solve difficult problems. They combine computer science, modelling, statistics, analytics, and math skills to uncover the answers to some major questions that can help organizations make decisions.
+                </p>
+
+                <div class="responsive-table">
+                    <table>
+                        <caption>Pricing table</caption>
+
+                        <thead>
+                            <tr>
+                            <th>title 1</th>
+                            <th>title 2</th>
+                            <th>title 3</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                            </tr>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                            </tr>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                            </tr><tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td>
+                                <td>Content 3</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                
+                                <td colspan="3">Testando</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="intro white-bg section" id="contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>
+                    Janyary brings us Firefox 85
+                </h2>
+                <p>
+                    At Mozilla, we believe you have a right to privacy. You shouldn’t be tracked online. Whether you are checking your bank balance, looking for the best doctor, or shopping for shoes, unscrupulous tracking companies should not be able to track you as you browse the Web. For that reason, we are continuously working to harden Firefox against online tracking of our users.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optmized.svg" alt="Logo html, css e js">
+            </div>   
+            
+            <div class="contact-form">
+               <fieldset class="form-grid">
+
+                <legend>Contact me</legend>
+
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="email">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Send Message</button>
+                </div>
+               </fieldset>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+
+    <footer id="footer">
+        <p>
+            Feito com ♥ por Vinicius Alves
+        </p>
+    </footer>
+
+    <a class="back-to-top" href="#">TOP</a>
+</body>
+</html>

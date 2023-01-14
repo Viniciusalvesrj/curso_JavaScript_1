@@ -1,0 +1,4 @@
+/*
+Variáveis - var & let
+*/
+
