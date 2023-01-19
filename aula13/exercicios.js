@@ -7,6 +7,6 @@ const nome = prompt('Digite o seu nome completo:');
         document.body.innerHTML += `O último índice da letra "i" do seu nome é: ${nome.lastIndexOf('i')} <br>`;
         document.body.innerHTML += `As últimas 3 letras do seu nome é: ${nome.slice(-3)} <br>`;
         document.body.innerHTML += `As Palavras do seu nome são: ${nome.split(' ')} <br>`;
-        document.body.innerHTML += `Seu nome com letras maiúsculas é: ${nome.toUpperCase(nome)} <br>`;
-        document.body.innerHTML += `Seu nome com letras minúsculas é: ${nome.toLowerCase(nome)} <br>`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas é: ${nome.toUpperCase()} <br>`;
+        document.body.innerHTML += `Seu nome com letras minúsculas é: ${nome.toLowerCase()} <br>`;
 
