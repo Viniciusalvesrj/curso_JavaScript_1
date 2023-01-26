@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-dark:  rgb(19, 48, 54);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.container h3 {
+    margin: 10px;
+}
+
+.container h1 {
+    margin: 25px;
+}
+
+.referencias {
+    display: inline-block;
+    width: 40%;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+
+}
+
+form input:focus {
+    outline: 2px solid rgb(128, 219, 128);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+form button:hover {
+    background: var(--primary-color-dark);
+}
+
+
+.resultado {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.resultado2 {
+    background-color: rgb(233, 34, 34);
+    text-align: center;
+    font-weight: 600;
+}
